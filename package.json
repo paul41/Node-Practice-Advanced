@@ -1,19 +1,27 @@
 {
   "name": "Node-Practice",
   "version": "1.0.0",
-  "description": "",
   "main": "DNS.js",
   "dependencies": {
     "cluster": "^0.7.7",
+    "crypto": "^1.0.1",
     "http": "^0.0.1-security",
     "os": "^0.1.1"
   },
-  
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paul41/Node-Practice-Advanced.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paul41/Node-Practice-Advanced/issues"
+  },
+  "homepage": "https://github.com/paul41/Node-Practice-Advanced#readme",
+  "description": ""
 }
