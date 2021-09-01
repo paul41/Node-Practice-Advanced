@@ -16,7 +16,12 @@ callBack((err,res)=>{
 })
 
 let prom = util.promisify(asyncTout)
-prom().then(d=>{console.log('PROMISIFY METHOD:  ',d);process.nextTick(()=>{console.log('I am inside promise')})}).catch(error=>console.log(error))
+prom().then(d=>{
+    console.log('PROMISIFY METHOD:  ',d);
+    process.nextTick(()=>{
+        console.log('I am inside promise')
+    })
+}).catch(error=>console.log(error))
 
 
 //PROCESS
