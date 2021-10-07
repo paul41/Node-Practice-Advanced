@@ -4,4 +4,4 @@ require('./ascii-art');
 
 console.log('--- Load everytime ---');
 delete require.cache['C:\\Users\\M1054735\\Desktop\\Node-Practice\\ascii-art.js']
-require('./ascii-art')
+require('./ascii-art');
