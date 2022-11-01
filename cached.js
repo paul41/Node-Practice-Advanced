@@ -1,5 +1,5 @@
 require('./ascii-art')
-console.log(require.cache) //SEE module parent property
+console.log("cached ",require.cache) //SEE module parent property
 require('./ascii-art');
 
 console.log('--- Load everytime ---');

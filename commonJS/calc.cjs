@@ -11,8 +11,8 @@ let classSemiInst = new ClassX.Semicircle(8,Math.PI)
 console.log(classInstance.diam())
 console.log(classSemiInst.semiCirum())
 
-setImmediate(()=>console.log(require.main))
-console.log(require('module').wrapper)
+setImmediate(()=>console.log('require.main-> ',require.main))
+console.log("---> ",require('module').wrapper)
 
 //we cannot change the exports object asynchronously
 
